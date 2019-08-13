@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form name="formulario" action="concluido.html" method="POST">
+        <ul>
+            <li>Nome Completo * <input name="Nome" type="text" maxlength="30" size="30" placeholder= "Nome" required> <input name="Sobrenome" type="text" maxlength="30" size="30" placeholder= "Sobrenome" required> </li>
+            <li>E-mail * <input name="Email" type="email" size="30" required> </li>
+            <li>Assunto *<select name="Salario">
+                <option>Reclamações</option>
+                <option>Ajustes</option>
+                <option>Pedir a conta</option>
+                <option>Pedir a almento</option>
+            </select><li>Mensagem *<br><textarea  required></textarea></li>
+        </ul>
+                  Informações Complementares<br>
+                  Profissão *<input name="Profissão" type="text" size="30" required>
+                  Telefone(<input name="telefone" type="tel" maxlength="2" required>)<input name="telefone1" type="tel" maxlength="9" required>
+                 - <input name="Telefone2" type="tel" maxlength="9" >
+                  Pretensão salarial
+                  <select name="Salario">
+                      <option>R$ 2,000 - R$ 3,000</option>
+                      <option>R$ 3,000 - R$ 4,000</option>
+                      <option>R$ 4,000 - R$ 5,000</option>
+                      <option>R$ 5,000 - R$ 6,000</option>
+                  </select>
+                  Observações *<textarea  required></textarea> <button>Cadastrar</button>
+    </form>
+
+</body>
+</html>
